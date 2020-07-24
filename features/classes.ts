@@ -14,7 +14,7 @@ const vehicle = new Vehicle('blue');
 //vehicle.honk()
 console.log(vehicle.color);
 
-class Car extends Vehicle {
+class Car2 extends Vehicle {
   constructor(public wheels: number, color: string) {
     super(color);
   }
@@ -28,7 +28,7 @@ class Car extends Vehicle {
     console.log(this.wheels);
   }
 }
-const car = new Car(20, 'red');
-car.startDrivingProcess();
+const car2 = new Car2(20, 'red');
+car2.startDrivingProcess();
 
 // ts-node classes.ts
